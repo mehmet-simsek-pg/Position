@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.navbar_first {
+  background-color: rgb(56, 55, 54);
+  border: 1px solid white;
+  height: 24px;
+  color: white;
+}
+.navbar_first-menu {
+  display: inline-block;
+  position: absolute;
+  right: 16px;
+  top: 0;
+  padding: 2px;
+}
+.navbar_first-menu a {
+  color: white;
+}
+h2 {
+  display: inline-block;
+  border-right: 1px solid white;
+  width: 50%;
+  font-size: 20px;
+  padding: 1px;
+}
+.navbar_second {
+  background-color: rgb(173, 173, 173);
+  border: 1px solid white;
+  height: 3rem;
+  position: sticky;
+  top: 0;
+}
+.navbar_second-menu {
+  display: inline-block;
+  position: absolute;
+  right: 16px;
+  top: 10px;
+}
+
+.navbar_second-menu a {
+  color: black;
+  font-size: 20px;
+  margin: 2px;
+}
+a {
+  text-decoration: none;
+}
+.wp_icon img {
+  width: 36px;
+  position: fixed;
+  bottom: 16px;
+  right: 16px;
+}

@@ -1,0 +1,42 @@
+.input_div {
+  display: flex;
+  border: 2px solid;
+  border-radius: 0.5rem;
+  width: 20rem;
+  margin: 1rem;
+}
+
+.input_div input {
+  display: flex;
+  width: 15rem;
+  border: none;
+}
+
+.input_div img {
+  position: relative;
+  left: 2rem;
+  width: 2.5rem;
+  height: 2rem;
+}
+.button_div {
+  display: flex;
+  margin-left: 1rem;
+}
+
+.first {
+  background-color: rgb(40, 37, 37);
+  
+  width: 19rem;
+  border-radius: 1rem;
+  padding: 0.5rem;
+
+}
+
+.second {
+  background-color: orange;
+  width: 5rem;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  position: absolute;
+  left: 17rem;
+}
